@@ -17,3 +17,9 @@ In the project folder, start the node libraries
 npm start .
 ```
 Happy Hacking! ^^
+
+# Donate
+https://www.patreon.com/dyoniso
+
+# License
+Licensed under the [WTFPL License](http://www.wtfpl.net/).
