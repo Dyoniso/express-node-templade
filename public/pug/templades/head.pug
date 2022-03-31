@@ -1,7 +1,15 @@
 head 
-    title(id="pageTitle") APP Base
-    meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
+    title(id="pageTitle") #{title}
+    eta(http-equiv='Content-Type' content='text/html; charset=utf-8')
     meta(name="viewport" content="width=device-width, initial-scale=0.8")
+    meta(name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1")
+    meta(name="description" content=(description))
+    meta(property="og:locale" content="pt_BR")
+    meta(property="og:type" content="article")
+    meta(property="og:title" content=(title))
+    meta(property="og:description" content=(description))
+    meta(property="og:site_name" content=(title))
+    meta(property="article:modified_time" content=(new Date().toString()))
     link(href="/pub/favicon.ico" rel="icon" type="image/x-icon")
     link(rel="stylesheet"  href="/pub/bootstrap/css/bootstrap.min.css")
     link(rel="stylesheet" type="text/css" href="/pub/essentials.css")

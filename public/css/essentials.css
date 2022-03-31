@@ -1,0 +1,86 @@
+:root {
+    --primary : #5c012a;
+    --secondary : #421529;
+    --secondary-dark : #290016;
+    --accent: #5502c2;
+    --accent-dark: #752455;
+    --srollbar: #350006d5;
+    --link: #c5c5c5;
+}
+
+a {
+    opacity: 0.8;
+    color: var(--link)
+}
+
+a:hover {
+    opacity: 1;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+hr {
+    background-color: var(--accent-dark);
+}
+
+h1, h2, h3, h4, h5, h6, p, div {
+    color: var(--white)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--secondary-dark);
+}
+
+.main-container {
+    min-height: 85vh;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.card {
+    margin: 1rem;
+    background: var(--secondary);
+}
+
+.fotter-container {
+    padding: 2rem;
+    text-align: center;
+    color: var(--white);
+    background: var(--secondary);
+}
+
+.form-control {
+    color: var(--white);
+    background-color: #0000003b;
+}
+
+.form-control:focus {
+    color: var(--white);
+    background-color: #0000003b;
+}
+
+.navbar {
+    background: var(--accent-dark);
+}
+
+::-webkit-scrollbar {
+    height: 8px;  
+    width: 4px;
+    -webkit-appearance: none;
+}
+::-webkit-scrollbar-corner { 
+    background: var(--srollbar); 
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: var(--accent-dark); 
+}
+::-webkit-scrollbar-track {
+    background: var(--srollbar); 
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent-dark); 
+    height:100px;
+    border-radius:12px;
+}

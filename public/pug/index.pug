@@ -1,7 +1,13 @@
+
+- let title = "App Base"
+- let description = "App Base Description"
+
 include ./templades/head.pug
 
 body
-    div(class="content text-center")
-        h4(class="p-2 font-weight-bold") - App Base Templade -
-        hr
-        h6 * Powered by Dyoniso. More Content: !{'<a href="https://github.com/dyoniso"> github.com/dyoniso </a>'}.
+    include ./templades/nav.pug
+
+    div.container-fluid.main-container
+        //Code Here
+
+    include ./templades/fotter.pug
