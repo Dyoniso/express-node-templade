@@ -12,12 +12,17 @@ A simple templates to start your projects in Node.Js and Pug/Jade
 
 clone the repository:
 ```
-git clone https://github.com/Dyoniso/AppBase
+git clone https://github.com/Dyoniso/express-node-templade
 ```
-In the project folder, start the node libraries
+In the project folder, start the node libraries.
 ```
 npm start .
 ```
+Start APP:
+```
+node app.js
+```
+
 Happy Hacking! ^^
 
 # License
